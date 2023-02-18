@@ -1,0 +1,20 @@
+h1 {
+    font-size: 36px;
+    color: #333333;
+}
+
+.box {
+    color: #333333;
+}
+
+#unique {
+    color: #333333;
+}
+
+a[title] {
+    color: #333333;
+}
+
+a[href="https://example.com"] {
+    color: #333333;
+}

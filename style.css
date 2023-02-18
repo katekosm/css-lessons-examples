@@ -1,0 +1,23 @@
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  color: #3498db;
+  text-decoration: none;
+  padding: 10px;
+}
+nav ul li a:hover {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=style.css.map */

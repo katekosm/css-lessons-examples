@@ -1,0 +1,29 @@
+// Define a variable for the primary color
+$primary-color: #3498db;
+// Define a variable for font sizes
+$font-sizes: ( small: 12px, medium: 16px, large: 24px);
+// Define styles for a navigation menu
+nav {
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            a {
+                color: $primary-color;
+                text-decoration: none;
+                padding: 10px;
+                &:hover {
+                    background-color: $primary-color;
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+}
+
+// Use the font sizes variable
+h1 {
+    font-size: map-get($font-sizes, large);
+}
